@@ -1,0 +1,1 @@
+This is a DVC repository for classifying NIFTI files as t2_axial, high_bvalue or adc.  

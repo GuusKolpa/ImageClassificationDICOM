@@ -12,7 +12,7 @@ def setup_logging():
     config = "logging.ini"
     config_path = settings_dir / config
 
-    timestamp = datetime.now().strftime("%Y%m%d-%H:%M:%S")
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     logging.config.fileConfig(
         config_path,
